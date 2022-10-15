@@ -27,7 +27,7 @@ img {
 /*Style rules to show mobile class and hide tab-desk class*/
 
 .mobile {
-  display: contents;
+  display: content;
 }
 
 .tab-desk{
@@ -203,6 +203,10 @@ background-color: #f6eee4;
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width:1921px) {
+
+  body {
+    background: linear-gradient(#f6eeef, #78593a);
+  }
 
   #wrapper {
     width: 1920px;
